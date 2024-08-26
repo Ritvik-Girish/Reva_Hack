@@ -60,3 +60,20 @@ Retrofit: A type-safe HTTP client for Android and Java.
 
 7.License
 This project is licensed under the MIT License.
+
+
+### Summary of the `README.md`
+
+- **Project Overview**: Brief description of what the app does.
+- **Features**: List of key functionalities.
+- **Technologies Used**: List of major technologies and libraries used in the project.
+- **Getting Started**: Instructions for setting up and running the project.
+- **Usage**: Steps to use the app after installation.
+- **Project Structure**: Explanation of the key files and their roles.
+- **Dependencies**: Lists the necessary libraries and services.
+- **License**: Indicates the project’s licensing information.
+- **Contributing**: Encourages contributions with a guide on how to contribute.
+- **Contact**: Provides contact information for further questions or feedback.
+
+
+
