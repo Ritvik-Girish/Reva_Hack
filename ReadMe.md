@@ -30,16 +30,16 @@ This Android application helps users locate the nearest hospital using their cur
    git clone https://github.com/Ritvik-Girish/hospital-locator.git
    cd Ambulocate
 
-2.Open the project in Android Studio:
+2. **Open the project in Android Studio**:
 Go to File > Open... and select the hospital-locator directory.
 
-3.Set up your Google Maps API Key:
+3. **Set up your Google Maps API Key**:
 In app/src/main/res/values/strings.xml, replace YOUR_GOOGLE_MAPS_API_KEY_HERE with your actual API key:
 xml
 Copy code
 <string name="google_maps_key">YOUR_GOOGLE_MAPS_API_KEY_HERE</string>
 
-4.Build and Run:
+4. **Build and Run**:
 Connect your Android device or use an emulator.
 Click on the Run button in Android Studio to build and run the app.
 Usage
@@ -48,17 +48,17 @@ Locate Nearest Hospital: The map will display your location and the nearest hosp
 View Hospital Details: The name, address, and distance to the nearest hospital will be shown.
 Book Ambulance: Click on the "Book Ambulance" button to simulate booking an ambulance.
 
-5.Project Structure
+5. **Project Structure**:
 MainActivity.java: Contains the main logic for the map, location services, and UI interactions.
 GooglePlacesService.java: Interface for Retrofit to communicate with the Google Places API.
 Place.java & PlacesResponse.java: Models to parse the JSON responses from the Google Places API.
 activity_main.xml: Layout file defining the UI of the main screen.
 
-6.Dependencies
+6. **Dependencies**:
 Google Play Services: Required for using Google Maps and location services.
 Retrofit: A type-safe HTTP client for Android and Java.
 
-7.License
+7. **License**:
 This project is licensed under the MIT License.
 
 
